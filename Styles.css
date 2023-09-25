@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: #e5ecf9;
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 150px;
+}
+
+.container2{
+    display: flex;
+    height: 700px;
+    width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 150px;
+}
+
+.info {
+    background-image: url(Imagenes/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 50px;
+    width: 50%;
+}
+
+.info h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.info h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.form {
+    padding: 150px 100px;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.form2 {
+    padding: 150px 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+.form h2 {
+    color: #097ef6;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box {
+    outline: none;
+    border-color: #097ef6;
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.inputs a {
+    color: #097ef6;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.submit{
+    background-color: #097ef6;
+    padding: 15px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+@media(max-width:990px){
+    .container1{
+        width: 350px;
+        height: 600px;
+        margin-top: 100px;
+    }
+
+    .container2{
+        width: 350px;
+        height: 600px;
+        margin-top: 100px;
+    }
+
+    .info{
+        display: none;
+
+    }
+
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .form2{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .form h2{
+        margin-top: 40px;
+    }
+}
